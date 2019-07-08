@@ -1,0 +1,56 @@
+main {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+main > div {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+/* REMEMBER MOBIE FIRST RULES  */
+.col1 {
+  background-color: pink;
+  display: block;
+  height:400px;
+  width: 100%;
+}
+
+.col2 {
+  background-color: red;
+  display: block;
+  height:400px;
+  width: 100%;
+}
+
+
+/* IF SCREEN AT 641PX, THEN THE FOLLOWING RULES APPLY */
+
+@media screen and (min-width: 641px) {
+  .col1 {
+    background-color: blue;
+    display: inline-block;
+    width: 24%;
+  }
+  .col2 {
+    background-color: purple;
+    display: inline-block;
+    width: 24%;
+  }
+  .col3 {
+    background-color: grey;
+    display: inline-block;
+    height: 400px;
+    width: 24%;
+  }
+  .col4 {
+    background-color: brown;
+    display: inline-block;
+    height: 400px;
+    width: 24%;
+  }
+}
